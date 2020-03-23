@@ -17,5 +17,5 @@ Note (all out group wrote the conclusion).
 Sulaiman phase #2 workspace:
 1- 2.3.5 ( Date class ). 
 2- 2.3.6 ( MV services class ).
-3- 2.5 Sequence class.
+3- 2.5 ( Sequence Diagram ).
 
