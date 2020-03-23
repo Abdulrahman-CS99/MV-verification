@@ -6,3 +6,13 @@ Omair phase #2 workspace:
 2- 2.2 (Class Diagram).
 3- 2.3.1 (MV Controller class).
 4- 2.3.2 (MADA Verification class).
+
+Abdulrahman phase #2 workspace:
+1- Abstract 
+2- 1 Introduction
+3- 2.6 User Interface design.
+
+
+
+
+Note (all out group wrote the conclusion).
