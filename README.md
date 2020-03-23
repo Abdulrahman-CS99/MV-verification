@@ -12,10 +12,14 @@ Abdulrahman phase #2 workspace:
 2- 1 Introduction
 3- 2.6 User Interface design.
 
-Note (all out group wrote the conclusion).
+Omar phase #02 workspace:
+1- 2.3.3 (MV View Class).
+2- 2.3.4 (Bank Card Class).
+3- 2.4 (Use Case Diagram).
 
 Sulaiman phase #2 workspace:
 1- 2.3.5 ( Date class ). 
 2- 2.3.6 ( MV services class ).
 3- 2.5 ( Sequence Diagram ).
 
+Note (all out group wrote the conclusion).
