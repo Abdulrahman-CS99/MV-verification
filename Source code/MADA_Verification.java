@@ -57,7 +57,7 @@ public class MADA_Verification
 
 			System.out.print("\nlist of Cards:\n\n");
 					
-			while(n != null)
+			while(n != null) 
 			{
 			//System.out.println(c+") "+n.getItem().Card_Name+" , "+n.getItem().Card_Number);
 			System.out.print(c+") "+n.getItem().Card_Name+" ");
