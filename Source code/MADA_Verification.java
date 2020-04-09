@@ -44,13 +44,13 @@ public class MADA_Verification
 	
 		public void ShowCardDetails()
 		{
-		/*
-			list of Cards:
-			1) Omair , xxxx-xxxx-xxxx-1121
-			2) Sulaiman , xxxx-xxxx-xxxx-4456
+			/*
+				list of Cards:
+				1) Omair , xxxx-xxxx-xxxx-1121
+				2) Sulaiman , xxxx-xxxx-xxxx-4456
 			
-			input: if (1) --> then Omair's card will show up , if (2) --> then Sulaiman's card will be show up.
-		*/
+				input: if (1) --> then Omair's card will show up , if (2) --> then Sulaiman's card will be show up.
+			*/
 		
 			Node<BankCard> n =  Cards.getHead();// node for the first card.
 			int c = 1;
