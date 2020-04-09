@@ -110,6 +110,13 @@ public class MADA_Verification
 			System.out.print("\nwrong input, There are no card.");
 			}
 		}	
+// ------------------------------------------------ Show latest operation ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+	public void ShowLatestOperation()
+	{
+		
+	}
+	
 }	
 
 
