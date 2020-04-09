@@ -42,8 +42,8 @@ public class MADA_Verification
 
 		}*/
 		
-			public void ShowCardDetails()
-	{
+		public void ShowCardDetails()
+		{
 		/*
 			list of Cards:
 			1) Omair , xxxx-xxxx-xxxx-1121
@@ -52,13 +52,13 @@ public class MADA_Verification
 			input: if (1) --> then Omair's card will show up , if (2) --> then Sulaiman's card will be show up.
 		*/
 		
-		Node<BankCard> n =  Cards.getHead();// node for the first card.
-		int c = 1;
+			Node<BankCard> n =  Cards.getHead();// node for the first card.
+			int c = 1;
 
-		System.out.print("\nlist of Cards:\n\n");
+			System.out.print("\nlist of Cards:\n\n");
 					
-		while(n != null)
-		{
+			while(n != null)
+			{
 			//System.out.println(c+") "+n.getItem().Card_Name+" , "+n.getItem().Card_Number);
 			System.out.print(c+") "+n.getItem().Card_Name+" ");
 			String s = n.getItem().Card_Number.substring(15);
@@ -66,50 +66,50 @@ public class MADA_Verification
 				
 			c++;
 			n = n.getNext();
-		}
+			}
 		
-		System.out.print("\nEnter which Card details you want to see: ");
+			System.out.print("\nEnter which Card details you want to see: ");
 		
-		int userInput = input.nextInt();// user will enter number of card which one of the list.
+			int userInput = input.nextInt();// user will enter number of card which one of the list.
 		
-		Node<BankCard> tmp =  Cards.getHead();
-		try{
-		switch(userInput)// 2
-		{
-			case 1: 
-				System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
-				System.out.println();
-				break;
-			case 2: 
-				tmp = tmp.getNext();
-				System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
-				System.out.println();
-				break;
-			case 3: 
-				tmp = tmp.getNext().getNext();
-				System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
-				System.out.println();
-				break;
-			case 4: 
-				tmp = tmp.getNext().getNext().getNext();
-				System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
-				System.out.println();2
-				break;
-			case 5: 
-				tmp = tmp.getNext().getNext().getNext().getNext();
-				System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
-				System.out.println();
-				break;
-			default:
-				System.out.print("wrong input, There are no card.");
-				break;	
-		}
-		}
-		catch(Exception e)
-		{
+			Node<BankCard> tmp =  Cards.getHead();
+			try{
+			switch(userInput)// 2
+			{
+				case 1: 
+					System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
+					System.out.println();
+					break;
+				case 2: 
+					tmp = tmp.getNext();
+					System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
+					System.out.println();
+					break;
+				case 3: 
+					tmp = tmp.getNext().getNext();
+					System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
+					System.out.println();
+					break;
+				case 4: 
+					tmp = tmp.getNext().getNext().getNext();
+					System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
+					System.out.println();2
+					break;
+				case 5: 
+					tmp = tmp.getNext().getNext().getNext().getNext();
+					System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
+					System.out.println();
+					break;
+				default:
+					System.out.print("wrong input, There are no card.");
+					break;	
+			}
+			}
+			catch(Exception e)
+			{
 			System.out.print("\nwrong input, There are no card.");
-		}
-	}	
+			}
+		}	
 	}	
 }
 
