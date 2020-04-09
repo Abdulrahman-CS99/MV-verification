@@ -1,3 +1,4 @@
+//BankCrard class
 public class BankCard
 {
 	String Card_Name;
