@@ -3,7 +3,7 @@ public class MADA_Verification
 {
 	//BankCard CardInfo;
 	DLL<BankCard> Cards = new DLL<BankCard>(); // linked list whos hold Cards.
-	Scanner input = new Scanner(System.in);
+	
 	
 // ----------------------------------------------- Adding bank card ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 				
