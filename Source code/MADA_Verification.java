@@ -41,7 +41,7 @@ public class MADA_Verification
 			n = n.getNext();
 
 		}*/
-		
+	
 		public void ShowCardDetails()
 		{
 		/*
@@ -110,7 +110,6 @@ public class MADA_Verification
 			System.out.print("\nwrong input, There are no card.");
 			}
 		}	
-	}	
-}
+}	
 
 
