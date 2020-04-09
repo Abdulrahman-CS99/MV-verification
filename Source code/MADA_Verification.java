@@ -42,7 +42,7 @@ public class MADA_Verification
 
 		}*/
 	
-		public void ShowCardDetails()
+		public void ShowCardDetails() 
 		{
 			/*
 				list of Cards:
@@ -51,7 +51,7 @@ public class MADA_Verification
 			
 				input: if (1) --> then Omair's card will show up , if (2) --> then Sulaiman's card will be show up.
 			*/
-		
+		 
 			Node<BankCard> n =  Cards.getHead();// node for the first card.
 			int c = 1;
 
