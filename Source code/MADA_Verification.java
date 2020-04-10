@@ -41,7 +41,22 @@ public class MADA_Verification
 			n = n.getNext();
 
 		}
-	}	
+	}
+	
+	public static void main(String args[])
+	{
+		MADA_Verification MV = new MADA_Verification();
+		
+		
+		//	BankCard(String name,String CN,String ED,String secure) --> change all to String better :D.
+		MV.AddingBankCard(new BankCard("Omair","1234-5678-9101-1121","04/21","123"));// this for adding
+		MV.AddingBankCard(new BankCard("Sulaiman","1121-5678-9101-4456","04/23","321"));
+		MV.AddingBankCard(new BankCard("Omar","4323-5678-9101-2800","09/20","456"));
+		MV.AddingBankCard(new BankCard("Abdulrhamn","2131-6678-7891-3232","01/22","840"));
+		
+		MV.ShowCardDetails();// show specific card details. user could be able to show (one of cards) details.
+		
+	}
 }
 
 
