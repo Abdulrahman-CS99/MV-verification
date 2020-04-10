@@ -1,8 +1,10 @@
+import java.util.Scanner;
 
 public class MADA_Verification
 {
 	//BankCard CardInfo;
 	DLL<BankCard> Cards = new DLL<BankCard>(); // linked list whos hold Cards.
+	Scanner input = new Scanner(System.in);
 	
 	
 // ----------------------------------------------- Adding bank card ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -40,11 +42,8 @@ public class MADA_Verification
 			System.out.println();
 			n = n.getNext();
 
-<<<<<<< HEAD
 		}
-	}
-=======
-		}*/
+	}*/
 	
 		public void ShowCardDetails() 
 		{
@@ -97,7 +96,7 @@ public class MADA_Verification
 				case 4: 
 					tmp = tmp.getNext().getNext().getNext();
 					System.out.print("Card informaiton: ( CardName: "+tmp.getItem().Card_Name+" , CardNumber: "+tmp.getItem().Card_Number+" , ExpireDate: "+tmp.getItem().Expire_Date+" , SecurityCode:"+tmp.getItem().Security_code+" )");
-					System.out.println();2
+					System.out.println();
 					break;
 				case 5: 
 					tmp = tmp.getNext().getNext().getNext().getNext();
@@ -137,7 +136,6 @@ public class MADA_Verification
 		MV.ShowLatestOperation();
 	}
 	
-}	
->>>>>>> 6e6c8fc0b04389c9505326ce4869e0e3cc8d8863
+}
 
 
