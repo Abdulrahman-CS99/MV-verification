@@ -82,7 +82,7 @@ public class MADA_Verification
 			tmp=tmp.getNext();
 			count++;
 		}
-		System.out.print("Card information: ( CardName: "+tmp.getItem().getCard_Name()+" , CardNumber: "+tmp.getItem().getCard_Number()+" , ExpireDate: "+tmp.getItem().getExpire_Date().displayDate()+" , SecurityCode:"+tmp.getItem().getSecurity_code()+" )");
+		System.out.print("Card information: ( CardName: "+tmp.getItem().getCard_Name()+" , CardNumber: "+tmp.getItem().getCard_Number()+" , ExpireDate: "+tmp.getItem().getExpire_Date().displayDate()+" , SecurityCode: XXX )");
 
 		}
 		catch(Exception e)
