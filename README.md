@@ -1,4 +1,4 @@
-# CS310 - Software Engineering
+# Software Engineering
 ## Course project
 
 Omair phase #2 workspace:
