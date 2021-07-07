@@ -22,4 +22,4 @@ Sulaiman phase #2 workspace:
 2- 2.3.6 ( MV services class ).
 3- 2.5 ( Sequence Diagram ).
 
-Note (all out group wrote the conclusion).
+Note (all our group wrote the conclusion).
